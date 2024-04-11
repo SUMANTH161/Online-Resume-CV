@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume/CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Online Resume/CV</h1>
+            <label for="photo-upload" id="photo-label">
+                <div class="profile-picture">
+                    <img src="placeholder.jpg" alt="Profile Picture" id="profile-img">
+                    <input type="file" accept="image/*" id="photo-upload" style="display: none;">
+                </div>
+            </label>
+            <div class="profile-info">
+                <h2 contenteditable="true" id="name">Your Name</h2>
+                <p contenteditable="true" id="profession">Your Profession</p>
+                <nav>
+                    <ul>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div contenteditable="true" id="education-details" class="editable">
+                Your education details here...
+            </div>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div contenteditable="true" id="work-experience-details" class="editable">
+                Your work experience details here...
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div contenteditable="true" id="skills-details" class="editable">
+                Your skills details here...
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <div contenteditable="true" id="contact-details" class="editable">
+                Your contact information here...
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p> Your Name</p>
+        </div>
+    </footer>
+
+</body>
+</html>
